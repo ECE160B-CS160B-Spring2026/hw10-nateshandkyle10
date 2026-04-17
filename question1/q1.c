@@ -17,7 +17,7 @@ struct key {
     {"restrict", 0}, {"return", 0}, {"short", 0}, {"signed", 0}, {"sizeof", 0},
     {"static", 0}, {"struct", 0}, {"switch", 0}, {"typedef", 0}, {"union", 0},
     {"unsigned", 0}, {"void", 0}, {"volatile", 0}, {"while", 0}
-};
+}; //add the keywords
 
 #define NKEYS (sizeof keytab / sizeof keytab[0])
 
@@ -99,4 +99,4 @@ void ungetch(int c) {
         printf("ungetch: too many characters\n");
     else
         buf[bufp++] = c;
-}
+} =
