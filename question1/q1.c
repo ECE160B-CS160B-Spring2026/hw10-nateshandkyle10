@@ -99,4 +99,4 @@ void ungetch(int c) {
         printf("ungetch: too many characters\n");
     else
         buf[bufp++] = c;
-} =
+} 
